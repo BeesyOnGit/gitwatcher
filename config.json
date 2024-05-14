@@ -1,0 +1,11 @@
+{
+    "build": [
+        {
+            "workDir": "the directory where to execute the build commande ex /home/CICD/portfolio/Serveur",
+            "cmd": ["liste the build commands ex :", "npm i", "npm run build"]
+        }
+    ],
+    "mouve": ["commande to copy the built program to the deployment folder ex cp -r /home/CICD/portfolio/Serveur/dist/* /var/www/api.portfolio.com"],
+    "clearFolder": "the folder where the git repo will be cloned to be removed later",
+    "repo": "Your git repo to Watch here"
+}

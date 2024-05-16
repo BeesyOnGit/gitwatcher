@@ -7,5 +7,6 @@
     ],
     "mouve": ["commande to copy the built program to the deployment folder ex cp -r /home/CICD/portfolio/Serveur/dist/* /var/www/api.portfolio.com"],
     "clearFolder": "the folder where the git repo will be cloned to be removed later",
-    "repo": "Your git repo to Watch here"
+    "repo": "Your git repo to Watch here",
+    "cron": "cron expression ex : * * * * * // program runs every minute"
 }

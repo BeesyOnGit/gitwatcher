@@ -44,3 +44,4 @@ The configuration file (`config.json`) contains the following parameters:
 - **mouve**: An array of commands to move the built program to the deployment folder.
 - **clearFolder**: (Optional) The folder to be cleaned up after deployment.
 - **repo**: The URL of the Git repository to monitor.
+- **cron**: the cron expression of the interval you want the program to run at.
